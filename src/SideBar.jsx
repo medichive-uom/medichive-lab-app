@@ -48,7 +48,7 @@ function SideBar(){
                     <Link to="/">Home</Link>
                 </Menu.Item>
                 <Menu.Item key="2" icon={<VideoCameraOutlined/>}>
-                    <Link to="/nav2">Nav2</Link>
+                    <Link to="/nav2">Nav3</Link>
                 </Menu.Item>
                 <Menu.Item key="3" icon={<LogoutOutlined/>}>
                     <Link to="/logout">Logout</Link>
