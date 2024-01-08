@@ -1,8 +1,8 @@
 import React, {useState} from "react";
 import {Route, Routes} from "react-router-dom";
-import Home from "./side navigation/Home";
-import Nav2 from "./side navigation/Nav2";
-import Logout from "./side navigation/Logout";
+import Reports from "./pages/Reports";
+import Upload from "./pages/Upload";
+import Logout from "./pages/Logout";
 import {Layout, theme} from "antd";
 
 
@@ -33,8 +33,8 @@ function ContentDetails() {
 
 
                 <Routes>
-                    <Route path="/" element={<Home/>}/>
-                    <Route path="/nav2" element={<Nav2/>}/>
+                    <Route path="/reports" element={<Reports/>}/>
+                    <Route path="/upload" element={<Upload/>}/>
                     <Route path="/logout" element={<Logout/>}/>
 
 
